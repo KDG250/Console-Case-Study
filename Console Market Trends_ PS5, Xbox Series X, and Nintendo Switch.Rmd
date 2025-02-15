@@ -1,0 +1,42 @@
+---
+title: 'Console Market Trends: PS5, Xbox Series X, and Nintendo Switch'
+author: "Khuzi Gausi"
+date: "2025-02-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Console Wars
+
+As an avid gamer, I was really interested to see how the console wars had been playing out with the top 3 consoles. _Sorry PC gamers._ So I gathered information about the trends in price, sales, and revenue of the PS5, Xbox Series X, and Nintendo Switch from 2022-2024.
+
+### Prices
+Here we have the price trends for the 3 consoles from 2022 to 2024.
+
+
+```{r, echo=FALSE}
+library(knitr)
+include_graphics("salesperyear.png")
+
+```
+
+### Revenues
+Now here we can see the revenue discrepancies between the consoles.
+```{r, echo=FALSE}
+library(knitr)
+include_graphics("Revenues 22-24.png")
+```
+
+### Sales
+We also calculated sales based on three of the biggest markets for these game consoles.
+
+
+```{r, echo=FALSE}
+library(knitr)
+include_graphics("Console Sales by Region 2022-2024.png")
+```
+
+It's evident that PS5 is consistently raking in the most revenue and dominating in sales in two of the three listed regions. Xbox Series X numbers are quite disappointing considering the rivalry between Sony Playstation and Microsoft Xbox. Evidently, the Nintendo Switch, a classic favorite amongst all demographics, pulls in more revenue than the Xbox despite their cheaper consoles. They also appear to be the dominant console in Japan for the three years from which we gathered our data. Perhaps Xbox should think about lowering their price to compete more with the other two consoles.  
