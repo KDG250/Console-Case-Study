@@ -1,0 +1,1 @@
+As a gamer, for my first R project I wanted to see the discrepancies in sales and revenue between the most popular game consoles: PS5, Nintendo Switch, and Xbox Series X. I used Excel and SQL to organize my data and then RStudio was where I generated the visualizations.
